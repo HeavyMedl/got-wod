@@ -1,0 +1,37 @@
+{
+  "name": "got-wod",
+  "version": "1.0.0",
+  "description": "Gets the WOD for a designated gym from beyondthewhiteboard.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "got-wod": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kurtlocker/got-wod.git"
+  },
+  "keywords": [
+    "crossfit",
+    "work",
+    "out",
+    "gym",
+    "wod",
+    "workout",
+    "work out of the day"
+  ],
+  "author": "kmedley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurtlocker/got-wod/issues"
+  },
+  "homepage": "https://github.com/kurtlocker/got-wod#readme",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "phin": "^3.5.0"
+  }
+}
